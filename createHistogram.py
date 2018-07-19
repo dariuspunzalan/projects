@@ -1,11 +1,13 @@
 #!/usr/bin/python
 
-#################################################
-#createhistogram.py				#
-#version: 1.0					#
-#Author: Darius Punzalan			#
-#Date: 24-May-2018				#
-#################################################
+#######################################################################
+#createhistogram.py				                      #
+#version: 1.0					                      #
+#Author: Darius Punzalan			                      #
+#Date: 24-May-2018                                                    #
+# Read input file to collect IP address and locate their coordinates. #
+# Check the forecast max temperature of the location.                 #
+#######################################################################
 
 import sys, threading, json, time
 import logging, fcntl, math
